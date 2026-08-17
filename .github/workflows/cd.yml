@@ -15,5 +15,5 @@ jobs:
         uses: actions/setup-go@v6
 
       - name: Build App
-        uses: ./scripts/buildprod.sh
+        run: ./scripts/buildprod.sh
   
